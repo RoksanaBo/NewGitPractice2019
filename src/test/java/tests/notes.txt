@@ -59,10 +59,13 @@ that is not yours (you were not added as a collaborator or you are not the owner
 ---------------------------------------------------------
 
 Whenever you have opened terminal text editor, to quit enter:
-:q or :q!
+:q   or   :q!
 :qw - so save changes and quit
 force quit - control + c
-The best way to resolve a conflict is to merge changes. Thus, you won't loose your updates and you will get updates from your teammates.
+
+The best way to resolve a conflict is to merge changes. Thus, таким образом,
+you won't loose your updates and you will get updates from your teammates.
+
 There is a another way how to handle conflict.
 Let's say, if the code is not ready yet, so you cannot really merge changes since your code is not completed. You don't want to loose your changes, but also you don't want to merge changes. In this case, we can stash changes.
 Stashing means temporary, remove your changes and put them in safe.
