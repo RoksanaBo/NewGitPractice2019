@@ -6,3 +6,4 @@ Tesla
 Mersedes
 Kia Optima
 Lexus GX470
+Mazda 3

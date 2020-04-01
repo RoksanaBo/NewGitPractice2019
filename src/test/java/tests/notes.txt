@@ -78,31 +78,52 @@ Stashing припрятать --> means temporary, remove your changes and put t
 
 Once you will be ready, you can apply those stashed changes any time.
 
-you have made changes to some file that was modified by your teammate as well
-what you can do?
+You have made changes to some file that was modified by your teammate as well.
+
+What you can do?
  - merge changes
  - just leave your changes
  - just accept changes
- - stash changes --- >
+ - stash changes --- > git stash
 
-                git stash
-every stash, has some id:
+Every stash has some id:
+
 stash@{0}: WIP on master: 4923690 resolved conflict
+
 stash@{0} - stash id,
+
 WIP on master: 4923690 resolved conflict - stash message
-once you have stashed your changes, they will be temporary removed from your code. But, they will not disappear. They will be stashed.
+-----------------------------------------------------------------
+Once you have stashed your changes, they will be temporary removed from your code.
+But, they will not disappear. They will be stashed.
+
 Once you stashed changes, you can easily pull updates:
-git pull
+
+   git pull
+
 Then, once you want to apply stashed changes again, just run:
-    git stash pop --> it will apply last stash yo your code back. It will create a conflict, so you would need manually/with tools resolve the conflict.
-if you have couple of stashes:
-    git stash list -- to see all stashes
-    git stash pop <stash_id> - to apply specific stash, not just latest one.
-if you want to delete all stashes:
+
+    git stash pop --> it will apply last stash yo your code back. It will create a conflict,
+                      so you would need manually/with tools resolve the conflict.
+
+----------------------------------------------------
+If you have couple of stashes:
+
+    git stash list  ---> to see all stashes
+
+    git stash pop <stash_id>  ---> to apply specific stash, not just latest one.
+
+-----------------------------------------------------
+If you want to delete all stashes:
+
     git stash clear
-delete specific one:
+--------------------------------------------------
+Delete specific one:
+
     git stash drop <stash_id>
+--------------------------------------------------------
 Bad decision:
+
 Instead of resolving conflict, sometimes people just clone project again, and move changes manually.
 But people do it sometimes when they don't know how to resolve conflict properly.
 
