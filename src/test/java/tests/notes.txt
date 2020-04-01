@@ -1,0 +1,10 @@
+
+When have some changes, we execute following commands:
+
+ git pull - get updates before sending our changes(if you are not alone on this project)
+
+ git add . - to prepare file for the commit
+
+ git commit -m "message" - to commit changes
+
+ git push - to send changes to GitHub
