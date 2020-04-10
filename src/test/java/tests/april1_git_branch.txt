@@ -84,3 +84,6 @@ vfomiuk@vfomiuk OnlineNewGitPractice2019 % git branch -d feature
 Deleted branch feature (was 0d83351).
 After merging branches, we were able to delete feature branch.
 once you see that window, enter :q and press return/enter
+
+------------------------------------------------------
+CGI - computer graphics
