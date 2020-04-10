@@ -1,0 +1,29 @@
+April, 8
+
+Git branches, fork and pull request.
+--------------------------------------------
+
+git push --set-upstream origin sdet
+
+to create a remote branch on github that corresponds to your newly created local branch.
+
+Clone - it's when you are getting a copy of the project from remote repository (github)
+        to local repository ( on your laptop)    from server --> laptop
+
+Fork - it's when your sre getting a copy of someone's repository on your github account.
+       from someones github account --> my github account.
+       And these repositories will be linked, so you can create pull requests later on.
+       Fork some project to our account --> clone project from our account --> to our laptop
+
+       When people use forks?
+       When you want to be a contributor of some public open source project. In case of linux
+       project, there are thousands of contributors and only one branch - master, because
+       every contributor has forked project to their account.
+
+
+pull - to get updates
+push - to send updates
+
+REMEMBER:
+
+

@@ -3,11 +3,14 @@ BMW 3
 BMW X6
 Audi R8
 Tesla
-Mersedes
+Mercedes
 Kia Optima
 Lexus GX470
 Mazda 3
 Honda Civic
 Subaru WRX STI
 Range Rover Velar
+Bentley
+
+
 
